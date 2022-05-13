@@ -1,0 +1,18 @@
+# To use:
+  # $ conda env create -f env_cv.yml
+  # $ conda activate cv
+name: basic
+dependencies:
+  - python
+  - pip
+  - pip:
+    - ipykernel
+    - numpy
+    - pandas
+    - torch
+    - seaborn
+    - matplotlib
+    - scipy
+    - cython
+    - requests
+    - pyarrow
